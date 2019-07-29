@@ -1,4 +1,4 @@
-## Business Data Analytics, Recommendation and Rating Prediction Platfrom (V2.0)
+## Business Data Analytics, Recommendation and Rating Prediction Platform (V2.0)
 
 ### This project's target is to build the web and mobile version Data Analytics platform to provide the following functions
 - Unified Data Analytics Platform based Django 
