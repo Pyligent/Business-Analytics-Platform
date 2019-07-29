@@ -6,7 +6,7 @@
 - Hybrid Recommendation Engine
 - Deployment on GCP or AWS or Mobile Platform(Herokuapp only support 5000 Lines for free version)
 
-### What the previous projects accomlished (V1.0)
+### What the previous projects accomplished (V1.0)
 - Full Data Analysis Platform based on Flask Web Server
 - Ensemble Rating Prediction based on the Feature Enginnerring
 - Item-based Collaborative filter algorithm
