@@ -1,4 +1,15 @@
-## Yelp Business Data Analytics, Recommendation and Rating Prediction
+## Business Data Analytics, Recommendation and Rating Prediction Platfrom (V2.0)
+
+### This project's target is to build the web and mobile version Data Analytics platform to provide the following functions
+- Unified Data Analytics Platform based Django 
+- build the deep learning sentiment analysis model to predict rating
+- Hybrid Recommendation Engine
+- Deployment on GCP or AWS or Mobile Platform(Herokuapp only support 5000 Lines for free version)
+
+### What the previous projects accomlished (V1.0)
+- Full Data Analysis Platform based on Flask Web Server
+- Ensemble Rating Prediction based on the Feature Enginnerring
+- Item-based Collaborative filter algorithm
 
 
 ### Table of Contents
