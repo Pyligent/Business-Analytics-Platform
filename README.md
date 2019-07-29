@@ -38,12 +38,13 @@
   + Data Preprocessing, Extract-Transform-Load (JSON to CSV, Database: PostgreSQL 10)
   + Data Visualization and EDA - Discover and visualize the data to gain insights ( Matplotlib, Seaborn, JavaScript, D3, plot.ly and leaflet mapping)
   + Feature Engineering - Numeric Features,Categorical Features,Time Series Features,Text Features and Handling the missing data
-  + Select the machine learning models,train and fine-tune the models (Logistic Regression,XGBoost,Light-GBM and Ensemble Models)
+  + Build deep learning sentiment analysis model for Review data
+  + Select the machine learning models,train and fine-tune the models 
   + Select the recommendation algorithm(Item-based Collaborative filter)
-  + Deploy the system and provide the APIs capabilities (Python Flask Web Server)
+  + Deploy the system and provide the APIs capabilities (Django)
 - **Project Functionalities**
   + **Dashboard:**   
-    - Provide Yelp GTA business overview dashborad,which includes the total business number,rating number and reviewed number and also adds key filters to provide the detailed information. Also the application provides the full data tables to display the whole business information(Totla 33,412 businesses included)
+    - Provide business overview dashborad,which includes the total business number,rating number and reviewed number and also adds key filters to provide the detailed information. Also the application provides the full data tables to display the whole business information(Totla 33,412 businesses included)
   + **Business Search:**
     - Using Yelp Fusion API, the application can query the business in any category and from any location. The detailed result will be geomapping into the map with detailed contact information(phone,address,rating and etc..)
   + **Categories Chart:**
@@ -51,7 +52,7 @@
   + **Recommendation Chart:**
     - Show whole bussiness full list and recommend the business based on user's input.The results are geo-mapping into the map with detailed contact information
   + **Rating Prediction:**
-    - The application uses four machine learning models to predict the rating. The logistic Regression,XGBoost,light-GBM and ensemble models are trained in this application.if we set the threshold is 70%, the best model accuracy is around 68%.Also the feature importances are provided. 
+    - The application uses machine learning models to predict the rating
   + **Rating Maps:**
     - The application will show the all business rating vs review counts in heatmap, the maps will be in different layers based on the rating and review counts
     
@@ -63,7 +64,7 @@
 #### Workflow
 - Raw Data Transform: JSON to CSV
 - Data Storage : PostgreSQL   
-- Workflow Engine (WFE): Flask Web Server/SQLAchemy/Python   
+- Workflow Engine (WFE): Flask/Django Web Server/SQLAchemy/Python   
 - Front END: Web Application/GUI, HTML/CSS, JavaScript,D3,Leaflet.js,Plot.ly
 - Back End: Feature Engineering,Machine Learning Models, Item-based Collaborative filter algorithm for Recommendation
 - Production Deployment on Heroku.com or GCP
