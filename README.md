@@ -44,7 +44,7 @@
   + Deploy the system and provide the APIs capabilities (Django)
 - **Project Functionalities**
   + **Dashboard:**   
-    - Provide business overview dashborad,which includes the total business number,rating number and reviewed number and also adds key filters to provide the detailed information. Also the application provides the full data tables to display the whole business information(Totla 33,412 businesses included)
+    - Provide business overview dashborad,which includes the total business number,rating number and reviewed number and also adds key filters to provide the detailed information. Also the application provides the full data tables to display the whole business information
   + **Business Search:**
     - Using Yelp Fusion API, the application can query the business in any category and from any location. The detailed result will be geomapping into the map with detailed contact information(phone,address,rating and etc..)
   + **Categories Chart:**
@@ -117,7 +117,7 @@
 <hr>
 
 ### Rating Prediction Model   
--The application uses four machine learning models to predict the rating. The logistic Regression,XGBoost,light-GBM and ensemble models are trained in this application.if we set the threshold is 70%, the best model accuracy is around 68%.Also the feature importances are provided.
+-The application uses four machine learning models to predict the rating. The logistic Regression,XGBoost,light-GBM and ensemble models are trained in this application.
 
 - Rating Maps Analytics
 ![img4](https://github.com/Pyligent/yelp_project/blob/master/pics/map.png)
