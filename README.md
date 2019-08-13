@@ -25,7 +25,7 @@ A unified business data analytics platform will solve this problem. This platfor
 <hr>
 
 ### Project Overview
-This project's target is to build Unified Business Data Analytics platform(Web/Mobile)
+This project's target is to build Unified Business Data Analytics platform(Web/Mobile),the major functionalities are:
 - Integrated Data Analytics Platform to provide Data Pipeline, Data Dashboard, Business Insight, Geographical Analysis, Rating Prediction and Business Recommendation
 - Build the deep learning sentiment analysis model to predict rating(improved accuracy to 80%+)
 - Hybrid Recommendation Engine (Content-based Filtering/Knowledge-based Filtering)
