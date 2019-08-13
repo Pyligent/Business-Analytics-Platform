@@ -8,7 +8,7 @@ A unified business data analytics platform will solve this problem. This platfor
 
 ### This project's target is to build a Unified Business Data Analytics platform(Web/Mobile) 
 - Integrated Data Analytics Platform to provide Data Dashboard, Business Insight, Geographic Analysis, Rating Prediction and Business Recommendation
-- Build the deep learning sentiment analysis model to predict rating
+- Build the deep learning sentiment analysis model to predict rating(improved accuracy to 80%+)
 - Hybrid Recommendation Engine (Content-based Filtering/Knowledge-based Filtering)
 - Deployment on GCP or AWS or Mobile Platform(Herokuapp only support 5000 Lines for free version)
 
