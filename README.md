@@ -51,7 +51,7 @@ This project's target is to build Unified Business Data Analytics platform(Web/M
   + Build deep learning sentiment analysis model for Review/Tip dataset
   + Machine learning models,train and fine-tune the models 
   + Recommendation algorithm(Item-based Collaborative Filtering,Content-based Filtering/Knowledge-based Filtering)
-  + Deploy the system and provide the APIs capabilities (Django)
+  + Deploy the system and provide the APIs capabilities
 - **Project Functionalities**
   + **Business Data Dashboard:**   
     - Provide business overview dashborad,which includes the total business number,rating number and reviewed number and also adds key filters to provide the detailed information. Also the application provides the full data tables to display the whole business information
