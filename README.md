@@ -44,7 +44,7 @@ A unified business data analytics platform will solve this problem. This platfor
   + Data Preprocessing, Extract-Transform-Load (JSON to CSV, Database: PostgreSQL 10)
   + Data Visualization and EDA - Discover and visualize the data to gain insights ( Matplotlib, Seaborn, JavaScript, D3, plot.ly and leaflet mapping)
   + Feature Engineering - Numeric Features,Categorical Features,Time Series Features,Text Features and Handling the missing data
-  + Build deep learning sentiment analysis model for Review data
+  + Build deep learning sentiment analysis model for Review/Tip dataset
   + Machine learning models,train and fine-tune the models 
   + Recommendation algorithm(Item-based Collaborative Filtering,Content-based Filtering/Knowledge-based Filtering)
   + Deploy the system and provide the APIs capabilities (Django)
