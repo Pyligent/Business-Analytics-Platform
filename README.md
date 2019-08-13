@@ -1,20 +1,20 @@
 ## Business Data Analytics, Recommendation and Rating Prediction Platform (V2.0)
 
-### This project's target is to build the web and mobile version Data Analytics platform to provide the following functions
-- Unified Data Analytics Platform based Django 
-- build the deep learning sentiment analysis model to predict rating
-- Hybrid Recommendation Engine
+### This project's target is to build an integrated Data Analytics platform(Web/Mobile) 
+- Integrated Data Analytics Platform to provide Data Dashboard, Business Insight, Geographic Analysis, Rating Prediction and Business Recommendation
+- Build the deep learning sentiment analysis model to predict rating based on the Tips/Review DataSet
+- Hybrid Recommendation Engine (Content-based Filtering/Knowledge-based Filtering)
 - Deployment on GCP or AWS or Mobile Platform(Herokuapp only support 5000 Lines for free version)
 
 ### What the previous projects accomplished (V1.0)
 - Full Data Analysis Platform based on Flask Web Server
 - Ensemble Rating Prediction based on the Feature Enginnerring
-- Item-based Collaborative filter algorithm
+- Item-based Collaborative filtering Recommendation algorithm
 
 
 ### Table of Contents
 + [Data Sets](#Data-Sets)
-+ [Project Overview](#Project-Overview)   
++ [Project Architecture](#Project-Overview)   
 + [Workflow Engine and API format](#Workflow-Engine-and-API-format)
 + [Data Extract,Transform and Load](#Data-Extract-Transform-and-Load)
 + [Data Dashboard and Visualization](#Data-Dashboard)
