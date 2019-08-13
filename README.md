@@ -18,7 +18,7 @@
 
 
 ### Problem Statement
-- Many businesses rely on customer's online reviews, tips and ratings. Explicit feedback or tips are especially important in the small-medium business or e-commerce industry where all customer engagements are impacted by these ratings. Furthermore, all business-related information are online, such as location, operation time, contact information. Yelp's DataSet has includes all above business information based on the geographic areas.
+- Many businesses rely on customer's online reviews, tips and ratings. Explicit feedback or tips are especially important in the small-medium business or e-commerce industry where all customer engagements are impacted by these ratings. Furthermore, all business-related information are online, such as location, operation time, contact information. Yelp's DataSet has includes all above business information based on the geographical areas.
 - For Small-Medium business owners, if they want to invest a new business in a city, they are eager to know the more useful information to help their decisions, such as where is the best location? what is the key features to beat the competitors?
 what's current ratings and reviews for exist owners,etc. 
 A unified business data analytics platform will solve this problem. This platform will provide the detailed business insights and recommendations based on different industry and provide the rating prediction.
@@ -26,7 +26,7 @@ A unified business data analytics platform will solve this problem. This platfor
 
 ### Project Overview
 This project's target is to build Unified Business Data Analytics platform(Web/Mobile)
-- Integrated Data Analytics Platform to provide Data Pipeline, Data Dashboard, Business Insight, Geographic Analysis, Rating Prediction and Business Recommendation
+- Integrated Data Analytics Platform to provide Data Pipeline, Data Dashboard, Business Insight, Geographical Analysis, Rating Prediction and Business Recommendation
 - Build the deep learning sentiment analysis model to predict rating(improved accuracy to 80%+)
 - Hybrid Recommendation Engine (Content-based Filtering/Knowledge-based Filtering)
 - Deployment on GCP or AWS or Mobile Platform(Herokuapp only support 5000 Lines for free version)
