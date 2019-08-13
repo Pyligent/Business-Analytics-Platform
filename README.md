@@ -1,12 +1,30 @@
 ## Business Data Analytics, Recommendation and Rating Prediction Platform (V2.0)
 
+
+### Table of Contents
++ [Problem Statement](#Problem-Statement)
++ [Project Overview](#Project-Overview)
++ [Data Sets](#Data-Sets)
++ [Project Architecture](#Project-Architecture)   
++ [Data Pipeline, Workflow Engine and API format](#Workflow-Engine-and-API-format)
++ [Data Extract,Transform and Load](#Data-Extract-Transform-and-Load)
++ [Data Dashboard and Visualization](#Data-Dashboard)
++ [Feature Engineering](#Feature-Engineering)
++ [Recommendation Algorithm](#Recommendation-Algorithm)
++ [Rating Prediction Model](#Rating-Prediction-Model)
++ [API Query](#API-Query)
+
+<hr>
+
+
 ### Problem Statement
 - Many businesses rely on customer's online reviews, tips and ratings. Explicit feedback or tips are especially important in the small-medium business or e-commerce industry where all customer engagements are impacted by these ratings. Furthermore, all business-related information are online, such as location, operation time, contact information. Yelp's DataSet has includes all above business information based on the geographic areas.
 - For Small-Medium business owners, if they want to invest a new business in a city, they are eager to know the more useful information to help their decisions, such as where is the best location? what is the key features to beat the competitors?
 what's current ratings and reviews for exist owners,etc. 
 A unified business data analytics platform will solve this problem. This platform will provide the detailed business insights and recommendations based on different industry and provide the rating prediction.
 
-### This project's target is to build Unified Business Data Analytics platform(Web/Mobile)
+### Project Overview
+This project's target is to build Unified Business Data Analytics platform(Web/Mobile)
 - Integrated Data Analytics Platform to provide Data Pipeline, Data Dashboard, Business Insight, Geographic Analysis, Rating Prediction and Business Recommendation
 - Build the deep learning sentiment analysis model to predict rating(improved accuracy to 80%+)
 - Hybrid Recommendation Engine (Content-based Filtering/Knowledge-based Filtering)
@@ -16,19 +34,6 @@ A unified business data analytics platform will solve this problem. This platfor
   - Rating Prediction and Item-based Collaborative filtering Recommendation algorithm [Jupyter Notebook](https://nbviewer.jupyter.org/github/Pyligent/Business-Analytics-Platform/blob/master/Rating%20Prediction%20and%20Recommendation%20Engine.ipynb)
   - Flask Web Server and API functionalities [app.py](https://github.com/Pyligent/Business-Analytics-Platform/blob/master/app.py)
   - Data Analytics Web application [Javascript/D3](https://github.com/Pyligent/Business-Analytics-Platform/tree/master/static/js)
-
-### Table of Contents
-+ [Data Sets](#Data-Sets)
-+ [Project Architecture](#Project-Architecture)   
-+ [Workflow Engine and API format](#Workflow-Engine-and-API-format)
-+ [Data Extract,Transform and Load](#Data-Extract-Transform-and-Load)
-+ [Data Dashboard and Visualization](#Data-Dashboard)
-+ [Feature Engineering](#Feature-Engineering)
-+ [Recommendation Algorithm](#Recommendation-Algorithm)
-+ [Rating Prediction Model](#Rating-Prediction-Model)
-+ [API Query](#API-Query)
-
-<hr>
 
 
 
