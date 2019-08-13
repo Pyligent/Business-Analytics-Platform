@@ -22,6 +22,7 @@
 - For Small-Medium business owners, if they want to invest a new business in a city, they are eager to know the more useful information to help their decisions, such as where is the best location? what is the key features to beat the competitors?
 what's current ratings and reviews for exist owners,etc. 
 A unified business data analytics platform will solve this problem. This platform will provide the detailed business insights and recommendations based on different industry and provide the rating prediction.
+<hr>
 
 ### Project Overview
 This project's target is to build Unified Business Data Analytics platform(Web/Mobile)
@@ -34,7 +35,7 @@ This project's target is to build Unified Business Data Analytics platform(Web/M
   - Rating Prediction and Item-based Collaborative filtering Recommendation algorithm [Jupyter Notebook](https://nbviewer.jupyter.org/github/Pyligent/Business-Analytics-Platform/blob/master/Rating%20Prediction%20and%20Recommendation%20Engine.ipynb)
   - Flask Web Server and API functionalities [app.py](https://github.com/Pyligent/Business-Analytics-Platform/blob/master/app.py)
   - Data Analytics Web application [Javascript/D3](https://github.com/Pyligent/Business-Analytics-Platform/tree/master/static/js)
-
+<hr>
 
 
 ### Data Sets
