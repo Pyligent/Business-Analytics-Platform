@@ -1,8 +1,14 @@
 ## Business Data Analytics, Recommendation and Rating Prediction Platform (V2.0)
 
-### This project's target is to build an integrated Data Analytics platform(Web/Mobile) 
+### Problem Statement
+Many businesses rely on customer's online reviews, tips and ratings. Explicit feedback or tips are especially important in the small-medium business or e-commerce industry where all customer engagements are impacted by these ratings. Furthermore, all business-related information are online, such as location, operation time, contact information. Yelp's DataSet has includes all above business information based on the geographic areas.
+For Small-Medium business owners, if they want to invest a new business in a city, they are eager to know the more useful information to help their decisions, such as where is the best location? what is the key features to beat the competitors?
+what's current ratings and reviews for exist owners,etc. 
+A unified business data analytics platform will solve this problem. This platform will provide the detailed business insights and recommendations based on different industry and provide the rating prediction.
+
+### This project's target is to build a Unified Business Data Analytics platform(Web/Mobile) 
 - Integrated Data Analytics Platform to provide Data Dashboard, Business Insight, Geographic Analysis, Rating Prediction and Business Recommendation
-- Build the deep learning sentiment analysis model to predict rating based on the Tips/Review DataSet
+- Build the deep learning sentiment analysis model to predict rating
 - Hybrid Recommendation Engine (Content-based Filtering/Knowledge-based Filtering)
 - Deployment on GCP or AWS or Mobile Platform(Herokuapp only support 5000 Lines for free version)
 
@@ -14,7 +20,7 @@
 
 ### Table of Contents
 + [Data Sets](#Data-Sets)
-+ [Project Architecture](#Project-Overview)   
++ [Project Architecture](#Project-Architecture)   
 + [Workflow Engine and API format](#Workflow-Engine-and-API-format)
 + [Data Extract,Transform and Load](#Data-Extract-Transform-and-Load)
 + [Data Dashboard and Visualization](#Data-Dashboard)
@@ -32,15 +38,15 @@
 ![yd](https://github.com/Pyligent/pyligent.github.io/blob/master/img/yelpdata.png)
 <hr>
 
-### Project Overview
+### Project Architecture
 - This project is a full-stack data analytics application. The whole process incudes:
   + Raw dataset (From the Yelp.com)
   + Data Preprocessing, Extract-Transform-Load (JSON to CSV, Database: PostgreSQL 10)
   + Data Visualization and EDA - Discover and visualize the data to gain insights ( Matplotlib, Seaborn, JavaScript, D3, plot.ly and leaflet mapping)
   + Feature Engineering - Numeric Features,Categorical Features,Time Series Features,Text Features and Handling the missing data
   + Build deep learning sentiment analysis model for Review data
-  + Select the machine learning models,train and fine-tune the models 
-  + Select the recommendation algorithm(Item-based Collaborative filter)
+  + Machine learning models,train and fine-tune the models 
+  + Recommendation algorithm(Item-based Collaborative Filtering,Content-based Filtering/Knowledge-based Filtering)
   + Deploy the system and provide the APIs capabilities (Django)
 - **Project Functionalities**
   + **Dashboard:**   
@@ -66,8 +72,8 @@
 - Data Storage : PostgreSQL   
 - Workflow Engine (WFE): Flask/Django Web Server/SQLAchemy/Python   
 - Front END: Web Application/GUI, HTML/CSS, JavaScript,D3,Leaflet.js,Plot.ly
-- Back End: Feature Engineering,Machine Learning Models, Item-based Collaborative filter algorithm for Recommendation
-- Production Deployment on Heroku.com or GCP
+- Back End: Feature Engineering,Machine Learning Models, Item-based Collaborative Filtering algorithm for Recommendation
+- Production Deployment: GCP or AWS
 
 #### API format
 - **Flask API JSON Data Route**:
@@ -104,13 +110,13 @@
 
 ### Feature Engineering   
 
-- Categories in Yelp dataset is very complicated. There are always a long text to describe the business' category. The reason behind this is that categories are added by business owners. So we created a categorial algorithm to simplify the category description and easy to query.
+- Categories in Yelp dataset is very complicated. There are always a long text to describe the business' category. The reason behind this is that categories are added by business owners. So we created a categorical feature selection algorithm to simplify the category description and easy to query.
 ![img2](https://github.com/Pyligent/yelp_project/blob/master/pics/cate.png)
   
 <hr>
 
 ### Recommendation Algorithm   
-- Item-based Collaborative filter algorithm is used as the business recommendation engine
+- Item-based Collaborative Filtering algorithm is used as the business recommendation engine
 
 ![img3](https://github.com/Pyligent/yelp_project/blob/master/pics/rec.png)
   
