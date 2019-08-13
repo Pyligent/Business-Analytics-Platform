@@ -11,12 +11,11 @@ A unified business data analytics platform will solve this problem. This platfor
 - Build the deep learning sentiment analysis model to predict rating(improved accuracy to 80%+)
 - Hybrid Recommendation Engine (Content-based Filtering/Knowledge-based Filtering)
 - Deployment on GCP or AWS or Mobile Platform(Herokuapp only support 5000 Lines for free version)
-
-### What the previous projects accomplished (V1.0)
-- Full Data Analysis Platform based on Flask Web Server
-- Ensemble Rating Prediction based on the Feature Enginnerring
-- Item-based Collaborative filtering Recommendation algorithm
-
+- Current Work:
+  - Data ETL: [Jupyter Notebook](https://nbviewer.jupyter.org/github/Pyligent/Business-Analytics-Platform/blob/master/Data_ETL.ipynb)
+  - Rating Prediction and Item-based Collaborative filtering Recommendation algorithm [Jupyter Notebook](https://nbviewer.jupyter.org/github/Pyligent/Business-Analytics-Platform/blob/master/Rating%20Prediction%20and%20Recommendation%20Engine.ipynb)
+  - Flask Web Server and API functionalities [app.py](https://github.com/Pyligent/Business-Analytics-Platform/blob/master/app.py)
+  - Data Analytics Web application [Javascript/D3](https://github.com/Pyligent/Business-Analytics-Platform/tree/master/static/js)
 
 ### Table of Contents
 + [Data Sets](#Data-Sets)
