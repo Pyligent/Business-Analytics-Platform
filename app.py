@@ -48,8 +48,7 @@ app = Flask(__name__)
 # It now uses private keys to authenticate requests (API Key)
 # You can find it on
 # https://www.yelp.com/developers/v3/manage_app
-API_KEY= '_cpGLbwJAbOMpQDN5Ic8n3KBcJwOY5nJg_IZCS6fBo17_x1RBbbYzw3kxS2u9tUbnfPsD4N4SHnqOw7FmPIfFn5bCfSbaBQ1pUeiz4KaApRIUKjqXjlJrlNW1e-iXHYx' 
-
+API_KEY= api_key
 
 # API constants, you shouldn't have to change these.
 API_HOST = 'https://api.yelp.com'
