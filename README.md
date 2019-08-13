@@ -2,8 +2,8 @@
 
 
 ### Table of Contents
-+ [Problem Statement](#Problem-Statement)
-+ [Project Overview](#Project-Overview)
++ [1 Problem Statement](#1-Problem-Statement)
++ [2 Project Overview](#2-Project-Overview)
 + [Data Sets](#Data-Sets)
 + [Project Architecture](#Project-Architecture)   
 + [Data Pipeline, Workflow Engine and API format](#Workflow-Engine-and-API-format)
@@ -69,9 +69,9 @@ This project's target is to build Unified Business Data Analytics platform(Web/M
 <hr>
 
 
-### Workflow Engine and API format
+### Data Pipeline, Workflow Engine and API format
 
-#### Workflow
+#### Pipeline and Workflow
 - Raw Data Transform: JSON to CSV
 - Data Storage : PostgreSQL   
 - Workflow Engine (WFE): Flask/Django Web Server/SQLAchemy/Python   
