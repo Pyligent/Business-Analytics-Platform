@@ -5,7 +5,7 @@
 + [Problem Statement](#Problem-Statement)
 + [Project Overview](#Project-Overview)
 + [Data Sets](#Data-Sets)
-+ [Project Architecture and Functionalities](#Project-Architecture-and-Functionalities)   
++ [Architecture and Functionalities](#Architecture-and-Functionalities)   
 + [Data Pipeline, Workflow Engine and API format](#Workflow-Engine-and-API-format)
 + [Data Extract,Transform and Load](#Data-Extract-Transform-and-Load)
 + [Data Dashboard and Visualization](#Data-Dashboard)
@@ -42,7 +42,7 @@ This project's target is to build Unified Business Data Analytics platform(Web/M
 ![yd](https://github.com/Pyligent/pyligent.github.io/blob/master/img/yelpdata.png)
 <hr>
 
-### Project Architecture and Functionalities
+### Architecture and Functionalities
 - This project is a full-stack data analytics application. The whole process incudes:
   + Raw dataset (From the Yelp.com)
   + Data Preprocessing, Extract-Transform-Load (JSON to CSV, Database: PostgreSQL 10)
