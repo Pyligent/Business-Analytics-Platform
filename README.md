@@ -49,17 +49,17 @@ A unified business data analytics platform will solve this problem. This platfor
   + Recommendation algorithm(Item-based Collaborative Filtering,Content-based Filtering/Knowledge-based Filtering)
   + Deploy the system and provide the APIs capabilities (Django)
 - **Project Functionalities**
-  + **Dashboard:**   
+  + **Business Data Dashboard:**   
     - Provide business overview dashborad,which includes the total business number,rating number and reviewed number and also adds key filters to provide the detailed information. Also the application provides the full data tables to display the whole business information
-  + **Business Search:**
+  + **Business Insight:**
     - Using Yelp Fusion API, the application can query the business in any category and from any location. The detailed result will be geomapping into the map with detailed contact information(phone,address,rating and etc..)
-  + **Categories Chart:**
+  + **Business Categories Analysis:**
     - Categories in Yelp dataset is very complicated. There are always a long text to describe the business' category. The reason behind this is that categories are added by business owners. So we created a categorial algorithm to simplify the category description and easy to query.
-  + **Recommendation Chart:**
+  + **Business Recommendation:**
     - Show whole bussiness full list and recommend the business based on user's input.The results are geo-mapping into the map with detailed contact information
   + **Rating Prediction:**
     - The application uses machine learning models to predict the rating
-  + **Rating Maps:**
+  + **Rating Geographic Maps:**
     - The application will show the all business rating vs review counts in heatmap, the maps will be in different layers based on the rating and review counts
     
 <hr>
